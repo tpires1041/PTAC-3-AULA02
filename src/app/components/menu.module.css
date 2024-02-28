@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+}
+.header h1{
+    margin-top: 0px;
+    color: white;
+}
