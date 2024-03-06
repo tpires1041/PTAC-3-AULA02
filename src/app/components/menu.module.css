@@ -7,3 +7,7 @@
     margin-top: 0px;
     color: white;
 }
+.navegacao ul li .link{
+    color: white;
+    text-decoration: none;
+}

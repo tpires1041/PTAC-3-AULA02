@@ -5,19 +5,23 @@ import Image from "next/image";
 export default function Menu(){
     return(
         <header className={styles.header}>
+            <Link href="/">
             <Image
-                width={100}
-                height={100} 
+                width={90}
+                height={90} 
                 src={"https://www.ifms.edu.br/marcaifms.png"}
             />
-            <h1>Menu</h1>
-            <nav>
+            </Link>
+            <nav className={styles.navegacao}>
                 <ul>
                 <Link href="/">
-                    <li>Home</li>
+                    <li className={styles.link}>Home</li>
                 </Link>
                 <Link href="/registro">
-                    <li>Registrar</li>
+                    <li className={styles.link}>Registro</li>
+                </Link>
+                <Link href="/localizacao">
+                    <li className={styles.link}>Localização</li>
                 </Link>
                 </ul>
             </nav>
