@@ -5,6 +5,7 @@ const nextConfig = {
         domains: [
             "www.ifms.edu.br",
             "moodle.org"
+            
         ]
     }
 }
